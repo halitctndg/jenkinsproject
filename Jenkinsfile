@@ -4,14 +4,14 @@ pipeline {
         stage('Test') {
             steps {
                 echo "Clarusway_Way to Reinvent Yourself"
-                sh 'echo using shell within Jenkinsfile'
+                bat 'echo using shell within Jenkinsfile'
                 echo 'not using shell in the Jenkinsfile'
             }
         }
         stage('Publish Test Results') {
             steps {
                 echo "Clarusway_Way to Reinvent Yourself"
-                sh 'echo using shell within Jenkinsfile'
+                bat 'echo using shell within Jenkinsfile'
                 echo 'not using shell in the Jenkinsfile'
             }
         }
